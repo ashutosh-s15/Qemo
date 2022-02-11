@@ -277,3 +277,12 @@ window.addEventListener('mouseup', () => {
 
 // new Memo(Date.now(), { top: 100, left: 10 }, { width: 100, height: 100 }, "hello world")
 
+//modal handling
+
+
+const overlay = document.querySelector('.overlay');
+document.addEventListener('keydown', (e) => {
+    if (e.key.toLowerCase() === 'h') {
+        overlay.classList.add('hide');
+    }
+});
