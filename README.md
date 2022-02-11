@@ -1,4 +1,3 @@
-
 # Qemo
 
 Qemo-an easy to use web app to create memorandums.
