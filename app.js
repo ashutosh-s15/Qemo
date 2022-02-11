@@ -286,3 +286,13 @@ document.addEventListener('keydown', (e) => {
         overlay.classList.add('hide');
     }
 });
+
+window.onload = (e) => {
+    console.log('testing')
+    if (localStorage.getItem('userKey')) {
+        overlay.classList.add('hide');
+        return;
+    }
+
+    localStorage.setItem('userKey', 'qemo-key');
+};
